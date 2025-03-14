@@ -1,0 +1,257 @@
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+.header-bg-dark{
+    background-color: #273E4A!important;
+}
+.showcase .container {
+  min-height: 350px;
+  background-color: #F9F9F9;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+.padall {
+  padding: 3px;
+}
+footer.footer {  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.footer-bg-dark {
+    background-color: #263E4A!important;
+}
+.list-inline {
+ list-style-type: none;
+}
+
+.list-inline-item a {
+    color:#FFFFFF;
+}
+padding-bottom: 1rem;
+}
+
+
+
+#event-calendar table {
+    width: 100%;
+  }
+  
+  #event-calendar table tr th {
+      border: 1px solid #ddd;
+      width: 80px;
+      height: 30px;
+      text-align: center;
+      color: gray;
+      font-size: 14px;
+      font-weight: 400;
+  }
+#event-calendar table tr td {
+    border: 1px solid #ddd;
+    width: 80px;
+    text-align: center;
+}
+#event-calendar .calendar tr td:last-child>a {
+    color: #C4C4C4;
+}
+#event-calendar .calendar td>a {
+    position: relative;
+    z-index: 2;
+    font-size: 20px;
+    font-weight: 300;
+}
+#event-calendar .calendar td div.highlight {
+    background-color: #EEEEEE;
+    color: red;
+    width: 100%;
+    left: 0;
+    right: 1px;
+    position: absolute;
+    top: 0;
+    bottom: 1px;
+    z-index: 0;
+}
+#event-calendar .calendar td {
+    position: relative;
+}
+#event-calendar table tr td {
+    height: 90px;
+}
+
+/***  Shopping   ***/
+
+
+#shopping-cart {
+  margin: 30px;
+  width: 100%;
+}
+
+#product-grid {
+  margin: 20px;
+}
+
+#shopping-cart table {
+  width: 100%;
+  background-color: #F0F0F0;
+}
+
+#shopping-cart table td {
+  background-color: #FFFFFF;
+}
+
+.txt-heading {
+  color: #211a1a;
+  border-bottom: 1px solid #E0E0E0;
+  overflow: auto;
+}
+
+#btnEmpty {
+  background-color: #ffffff;
+  border: #d00000 1px solid;
+  padding: 5px 10px;
+  color: #d00000;
+  float: right;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 10px 0px;
+}
+
+.btnAddAction {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #efefef;
+    border: #E0E0E0 1px solid;
+    color: #211a1a;
+    float: right;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#product-grid .txt-heading {
+  margin-bottom: 18px;
+}
+
+.product-item {
+  float: left;
+  background: #ffffff;
+  margin: 6px;
+  padding: 5px;
+  border: #E0E0E0 1px solid;
+}
+
+.product-image {
+  height: 155px;
+  width: 250px;
+  background-color: #FFF;
+}
+
+.clear-float {
+  clear: both;
+}
+
+.demo-input-box {
+  border-radius: 2px;
+  border: #CCC 1px solid;
+  padding: 2px 1px;
+}
+
+.tbl-cart {
+  font-size: 0.9em;
+}
+
+.tbl-cart th {
+  font-weight: normal;
+}
+
+.product-title {
+  margin-bottom: 20px;
+}
+
+.product-price {
+  float:left;
+}
+
+.cart-action {
+  float: right;
+}
+
+.product-quantity {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: #E0E0E0 1px solid;
+}
+
+.product-tile-footer {
+    padding: 15px 15px 0px 15px;
+    overflow: auto;
+}
+
+.cart-item-image {
+  width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: #E0E0E0 1px solid;
+    padding: 5px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.no-records {
+  text-align: center;
+  clear: both;
+  margin: 38px 0px;
+}
