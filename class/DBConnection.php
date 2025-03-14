@@ -3,7 +3,7 @@ class DBConnection {
     private $_dbHostname = "localhost";
     private $_dbName = "demo_db";
     private $_dbUsername = "root";
-    private $_dbPassword = "1234";
+    private $_dbPassword = ""; //agrega contraseña de tu bd
     private $_con;
 
     public function __construct() {
