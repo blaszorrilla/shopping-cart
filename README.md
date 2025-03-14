@@ -1,0 +1,1 @@
+Maquetación y comportamiento de un carrito de compra, permite agregar y eliminar ítems desde una base de datos MySQL.
